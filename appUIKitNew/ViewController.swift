@@ -1,9 +1,7 @@
 //
 //  ViewController.swift
 //  appUIKitNew
-//
-//  Created by Сергей Оськин on 02.01.2022.
-//
+
 
 import UIKit
 
