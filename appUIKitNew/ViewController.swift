@@ -74,14 +74,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionDoneTouchButton() {
+        guard let text = textField.text, !text.isEmpty else { return mainLabel.text = "Имя не задано"  }
+        mainLabel.text = text
+        mainLabel.textColor = .black
         
-        if let name = textField.text {
-            mainLabel.text = name
-            mainLabel.textColor = .black
-        } else if textField.text == nil {
-            mainLabel.text = "Имя не введено!"
-            mainLabel.textColor = .red
-        }
+        
     }
     @IBAction func actionDatePicker() {
         
