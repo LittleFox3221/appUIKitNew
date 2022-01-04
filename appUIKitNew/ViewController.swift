@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         mainSlider.maximumTrackTintColor = .black
         
         // MARK: - Text Field
-        
+        textField.backgroundColor = .white
         // MARK: - Button
         
         buttonDone.layer.cornerRadius = 10
@@ -67,8 +67,7 @@ class ViewController: UIViewController {
             mainLabel.text = "Выбран элемент с индексом - 2"
             mainLabel.textColor = .green
             
-        default:
-            break
+        default: break
         }
     }
     @IBAction func actionValueSlider() {
