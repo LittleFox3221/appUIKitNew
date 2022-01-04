@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         datePicker.locale = .current
         
         // MARK: - Switch
-        switchHideElements.setOn(false, animated: true)
+        switchHideElements.setOn(false, animated: false)
         
     
     }
